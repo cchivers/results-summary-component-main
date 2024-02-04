@@ -1,0 +1,19 @@
+body {
+  background-color: #fff;
+}
+
+#results {
+  background: linear-gradient(to bottom, #6943ff 0%, #2f2ce9 100%);
+}
+
+/* attribution for Frontend Mentor */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
