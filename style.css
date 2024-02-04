@@ -1,9 +1,27 @@
+@font-face {
+  font-family: Hanken;
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
 body {
   background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Hanken, sans-serif;
+}
+
+main {
+  width: 375px;
 }
 
 #results {
   background: linear-gradient(to bottom, #6943ff 0%, #2f2ce9 100%);
+  height: 358px;
+  border-bottom-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  color: #cac9ff;
 }
 
 /* attribution for Frontend Mentor */
